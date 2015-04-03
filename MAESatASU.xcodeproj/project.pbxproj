@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B31B18231AC1E79F009126D1 /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31B18201AC1E79F009126D1 /* GoogleOpenSource.framework */; };
+		B31B18241AC1E79F009126D1 /* GooglePlus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B31B18211AC1E79F009126D1 /* GooglePlus.bundle */; };
+		B31B18251AC1E79F009126D1 /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31B18221AC1E79F009126D1 /* GooglePlus.framework */; };
+		B31B18281AC1E815009126D1 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31B18271AC1E815009126D1 /* AddressBook.framework */; };
+		B31B182A1AC1E81F009126D1 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31B18291AC1E81F009126D1 /* AssetsLibrary.framework */; };
+		B31B182C1AC1E82C009126D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31B182B1AC1E82C009126D1 /* Foundation.framework */; };
+		B31B182E1AC1ED11009126D1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31B182D1AC1ED11009126D1 /* CoreLocation.framework */; };
+		B31B18301AC1ED23009126D1 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31B182F1AC1ED23009126D1 /* CoreMotion.framework */; };
+		B31B18321AC1ED2B009126D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31B18311AC1ED2B009126D1 /* CoreGraphics.framework */; };
+		B31B18341AC1ED38009126D1 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31B18331AC1ED38009126D1 /* CoreText.framework */; };
+		B31B18361AC1ED45009126D1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31B18351AC1ED45009126D1 /* MediaPlayer.framework */; };
+		B31B18381AC1ED4D009126D1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31B18371AC1ED4D009126D1 /* Security.framework */; };
+		B31B183A1AC1ED5A009126D1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31B18391AC1ED5A009126D1 /* SystemConfiguration.framework */; };
+		B31B183C1AC1ED63009126D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31B183B1AC1ED63009126D1 /* UIKit.framework */; };
 		B3FAD3671ABA570A008173AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FAD3661ABA570A008173AA /* main.m */; };
 		B3FAD36A1ABA570A008173AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FAD3691ABA570A008173AA /* AppDelegate.m */; };
 		B3FAD36D1ABA570A008173AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FAD36C1ABA570A008173AA /* ViewController.m */; };
@@ -14,6 +28,7 @@
 		B3FAD3721ABA570A008173AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FAD3711ABA570A008173AA /* Images.xcassets */; };
 		B3FAD3751ABA570A008173AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3FAD3731ABA570A008173AA /* LaunchScreen.xib */; };
 		B3FAD3811ABA570A008173AA /* MAESatASUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FAD3801ABA570A008173AA /* MAESatASUTests.m */; };
+		B3FAD38C1ABB4A7F008173AA /* splashPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FAD38B1ABB4A7F008173AA /* splashPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +42,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B31B18201AC1E79F009126D1 /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleOpenSource.framework; sourceTree = "<group>"; };
+		B31B18211AC1E79F009126D1 /* GooglePlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GooglePlus.bundle; sourceTree = "<group>"; };
+		B31B18221AC1E79F009126D1 /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlus.framework; sourceTree = "<group>"; };
+		B31B18271AC1E815009126D1 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		B31B18291AC1E81F009126D1 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		B31B182B1AC1E82C009126D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B31B182D1AC1ED11009126D1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B31B182F1AC1ED23009126D1 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		B31B18311AC1ED2B009126D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B31B18331AC1ED38009126D1 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		B31B18351AC1ED45009126D1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B31B18371AC1ED4D009126D1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B31B18391AC1ED5A009126D1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B31B183B1AC1ED63009126D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B3FAD3611ABA570A008173AA /* MAESatASU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAESatASU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3FAD3651ABA570A008173AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3FAD3661ABA570A008173AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +69,8 @@
 		B3FAD37A1ABA570A008173AA /* MAESatASUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAESatASUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3FAD37F1ABA570A008173AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3FAD3801ABA570A008173AA /* MAESatASUTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAESatASUTests.m; sourceTree = "<group>"; };
+		B3FAD38A1ABB4A7F008173AA /* splashPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = splashPageViewController.h; sourceTree = "<group>"; };
+		B3FAD38B1ABB4A7F008173AA /* splashPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = splashPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +78,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B31B183C1AC1ED63009126D1 /* UIKit.framework in Frameworks */,
+				B31B183A1AC1ED5A009126D1 /* SystemConfiguration.framework in Frameworks */,
+				B31B18381AC1ED4D009126D1 /* Security.framework in Frameworks */,
+				B31B18361AC1ED45009126D1 /* MediaPlayer.framework in Frameworks */,
+				B31B18341AC1ED38009126D1 /* CoreText.framework in Frameworks */,
+				B31B18321AC1ED2B009126D1 /* CoreGraphics.framework in Frameworks */,
+				B31B18301AC1ED23009126D1 /* CoreMotion.framework in Frameworks */,
+				B31B182E1AC1ED11009126D1 /* CoreLocation.framework in Frameworks */,
+				B31B182C1AC1E82C009126D1 /* Foundation.framework in Frameworks */,
+				B31B182A1AC1E81F009126D1 /* AssetsLibrary.framework in Frameworks */,
+				B31B18281AC1E815009126D1 /* AddressBook.framework in Frameworks */,
+				B31B18231AC1E79F009126D1 /* GoogleOpenSource.framework in Frameworks */,
+				B31B18251AC1E79F009126D1 /* GooglePlus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +104,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B31B18261AC1E7A7009126D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B31B183B1AC1ED63009126D1 /* UIKit.framework */,
+				B31B18391AC1ED5A009126D1 /* SystemConfiguration.framework */,
+				B31B18371AC1ED4D009126D1 /* Security.framework */,
+				B31B18351AC1ED45009126D1 /* MediaPlayer.framework */,
+				B31B18331AC1ED38009126D1 /* CoreText.framework */,
+				B31B18311AC1ED2B009126D1 /* CoreGraphics.framework */,
+				B31B182F1AC1ED23009126D1 /* CoreMotion.framework */,
+				B31B182D1AC1ED11009126D1 /* CoreLocation.framework */,
+				B31B182B1AC1E82C009126D1 /* Foundation.framework */,
+				B31B18291AC1E81F009126D1 /* AssetsLibrary.framework */,
+				B31B18271AC1E815009126D1 /* AddressBook.framework */,
+				B31B18201AC1E79F009126D1 /* GoogleOpenSource.framework */,
+				B31B18211AC1E79F009126D1 /* GooglePlus.bundle */,
+				B31B18221AC1E79F009126D1 /* GooglePlus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B3FAD3581ABA570A008173AA = {
 			isa = PBXGroup;
 			children = (
@@ -81,11 +146,14 @@
 		B3FAD3631ABA570A008173AA /* MAESatASU */ = {
 			isa = PBXGroup;
 			children = (
+				B31B18261AC1E7A7009126D1 /* Frameworks */,
 				B3FAD3681ABA570A008173AA /* AppDelegate.h */,
 				B3FAD3691ABA570A008173AA /* AppDelegate.m */,
 				B3FAD36B1ABA570A008173AA /* ViewController.h */,
 				B3FAD36C1ABA570A008173AA /* ViewController.m */,
 				B3FAD36E1ABA570A008173AA /* Main.storyboard */,
+				B3FAD38A1ABB4A7F008173AA /* splashPageViewController.h */,
+				B3FAD38B1ABB4A7F008173AA /* splashPageViewController.m */,
 				B3FAD3711ABA570A008173AA /* Images.xcassets */,
 				B3FAD3731ABA570A008173AA /* LaunchScreen.xib */,
 				B3FAD3641ABA570A008173AA /* Supporting Files */,
@@ -201,6 +269,7 @@
 			files = (
 				B3FAD3701ABA570A008173AA /* Main.storyboard in Resources */,
 				B3FAD3751ABA570A008173AA /* LaunchScreen.xib in Resources */,
+				B31B18241AC1E79F009126D1 /* GooglePlus.bundle in Resources */,
 				B3FAD3721ABA570A008173AA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3FAD38C1ABB4A7F008173AA /* splashPageViewController.m in Sources */,
 				B3FAD36D1ABA570A008173AA /* ViewController.m in Sources */,
 				B3FAD36A1ABA570A008173AA /* AppDelegate.m in Sources */,
 				B3FAD3671ABA570A008173AA /* main.m in Sources */,
@@ -343,8 +413,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MAESatASU",
+				);
 				INFOPLIST_FILE = MAESatASU/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -353,8 +432,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MAESatASU",
+				);
 				INFOPLIST_FILE = MAESatASU/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -412,6 +500,7 @@
 				B3FAD3861ABA570A008173AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3FAD3871ABA570A008173AA /* Build configuration list for PBXNativeTarget "MAESatASUTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +509,7 @@
 				B3FAD3891ABA570A008173AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
